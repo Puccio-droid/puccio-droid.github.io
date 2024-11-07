@@ -142,3 +142,11 @@ button:hover {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+/* Media query per schermi più piccoli */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%; /* La larghezza massima su dispositivi mobili */
+        margin: 0 10px; /* Distanza dai bordi su mobile */
+    }
+}
