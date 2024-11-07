@@ -52,6 +52,7 @@ body {
     padding-bottom: 5px; /* Riduci lo spazio sotto il testo */
     padding-left: 15px;
     padding-right: 15px;
+    border-radius: 10px;
     font-style: italic;
     margin-bottom: 25px;
     font-size: 0.95rem;
