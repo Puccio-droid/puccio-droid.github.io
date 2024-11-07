@@ -1,0 +1,144 @@
+/* Stile di base */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('image.jpeg');
+    background-repeat: repeat;
+    background-size: auto;
+    color: #e1e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+/* Stile del contenitore */
+.container {
+    background-color: #ffffff;
+    color: #333;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* Titolo */
+.title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #4a678e;
+    margin: 0 0 20px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    margin: 0 0 20px;
+    color: #555;
+}
+
+/* Stile del suggerimento */
+.hint-box {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    font-style: italic;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+/* Etichetta input */
+.input-label {
+    font-size: 1rem;
+    margin: 20px 0 10px;
+    color: #4a678e;
+}
+
+/* Input per le cifre */
+.input-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.digit-input {
+    width: 45px;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.2s;
+}
+
+.digit-input:focus {
+    outline: none;
+    border-color: #4a678e;
+}
+
+/* Stile del bottone */
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4a678e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #3b5674;
+    transform: translateY(-2px);
+}
+
+/* Messaggio di errore */
+.error-message {
+    color: #ff4d4d;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    display: none;
+}
+
+/* Bottone WhatsApp */
+.whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #67ad5b; /* Verde WhatsApp */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe5a;
+}
+
+.whatsapp-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.immagine {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menca e Nico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Prima pagina -->
+    <div class="container" id="first-page">
+        <div class="hint-box">
+            <p>“Rabbrividiamo innanzi a quel numero che a lungo abbiam tentato di tener lontano da noi.<br><br>Eliminiamolo in ogni dove, ancora una volta, forse l'ultima, ché ben presto esso ci farà compagnia per almeno un decennio.”</p>
+        </div>
+        <p class="input-label">Qual è la risposta dell'enigma?</p>
+        
+        <!-- Input box per la risposta -->
+        <div class="input-group">
+            <input type="text" maxlength="1" class="digit-input" id="digit-1">
+            <input type="text" maxlength="1" class="digit-input" id="digit-2">
+            <input type="text" maxlength="1" class="digit-input" id="digit-3">
+            <input type="text" maxlength="1" class="digit-input" id="digit-4">
+        </div>
+
+        <button onclick="checkAnswer()">Controlla</button>
+        <p id="error-message" class="error-message"></p>
+    </div>
+
+    <!-- Seconda pagina -->
+<div class="container" id="second-page" style="display: none;">
+    <img src="foto.jpeg" alt="Immagine celebrativa" class="immagine">
+    <h1>Enigma risolto!</h1>
+    <p>Ti sei guadagnato l'accesso al gruppo Whatsapp.</p>
+    <a href="https://chat.whatsapp.com/F7QQ3v0i9WNLVDFBoSebLb" target="_blank" class="whatsapp-button">
+        <img src="whatsapp-icon.png" alt="WhatsApp Icon" class="whatsapp-icon"> Entra subito!
+    </a>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
