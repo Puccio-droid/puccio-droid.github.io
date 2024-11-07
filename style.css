@@ -147,6 +147,6 @@ button:hover {
 @media (max-width: 600px) {
     .container {
         max-width: 90%; /* La larghezza massima su dispositivi mobili */
-        margin: 0 10px; /* Distanza dai bordi su mobile */
+        margin: 0 20px; /* Distanza dai bordi su mobile */
     }
 }
