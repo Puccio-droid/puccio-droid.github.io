@@ -178,4 +178,5 @@ button:hover {
     max-width: 600px; /* Imposta una larghezza massima per migliorare la centratura */
     margin-top: 15px;
     padding-top: 20px;
+    padding-bottom: 80px;
 }
