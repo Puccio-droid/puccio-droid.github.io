@@ -10,7 +10,6 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    position: relative;
 }
 
 /* Stile del contenitore */
@@ -140,7 +139,7 @@ button:hover {
 }
 
 .immagine {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -153,7 +152,9 @@ button:hover {
         margin: 0 20px; /* Distanza dai bordi su mobile */
     }
     .video {
+        max-width: 100%;
         width: 100%;
+        margin: 15px
     }
 }
 
