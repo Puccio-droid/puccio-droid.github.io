@@ -163,6 +163,10 @@ button:hover {
     z-index: 1;
 }
 
+.video-container {
+    margin-top: 40px; /* Assicurati che ci sia spazio sopra */
+}
+
 .main-container {
     display: flex;
     padding: 15px 15px;
