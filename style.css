@@ -158,10 +158,12 @@ button:hover {
     max-width: 350px; /* stessa larghezza del contenitore */
     width: 90%; /* stessa percentuale di larghezza del contenitore */
     display: block;
-    margin: 15px 30px; /* posiziona il video in sovrapposizione sopra il contenitore */
+    margin: 15px auto 30px; /* posiziona il video in sovrapposizione sopra il contenitore */
     border-radius: 10px 10px 10px 10px; /* angoli arrotondati solo nella parte superiore */
     z-index: 1;
-    position: relative;
+    position: fixed;
+    top: 15px;
+    left: 50%;
 }
 
 .main-container {
