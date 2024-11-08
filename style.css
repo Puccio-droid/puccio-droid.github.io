@@ -10,6 +10,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    padding-bottom: 20px; /* Dà uno spazio extra in fondo */
 }
 
 /* Stile del contenitore */
