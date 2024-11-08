@@ -162,7 +162,7 @@ button:hover {
     max-width: 350px; /* stessa larghezza del contenitore */
     width: 90%; /* stessa percentuale di larghezza del contenitore */
     display: block;
-    margin: -15px auto 30px; /* posiziona il video in sovrapposizione sopra il contenitore */
+    margin: 15px auto 30px; /* posiziona il video in sovrapposizione sopra il contenitore */
     border-radius: 10px 10px 10px 10px; /* angoli arrotondati solo nella parte superiore */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     z-index: 1;
