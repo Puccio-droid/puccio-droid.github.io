@@ -25,6 +25,9 @@ body {
     margin-top: 15px;
     padding-top: 20px;
     position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .container:hover {
