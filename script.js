@@ -43,25 +43,3 @@ window.onload = function() {
         console.log("Errore nel passaggio a schermo intero: ", err);
     });
 };
-
-// Seleziona le input box e il bottone
-const inputs = document.querySelectorAll(".digit-input");
-const button = document.querySelector("button");
-
-inputs.forEach(input => {
-    input.addEventListener("focus", () => {
-        // Quando la input box ottiene il focus, scrolla la pagina
-        window.scrollTo({
-            top: input.offsetTop - 50, // Scorri sopra l'input box di 50px per evitare che venga coperta
-            behavior: "smooth" // Aggiungi una transizione fluida
-        });
-    });
-});
-
-button.addEventListener("focus", () => {
-    // Quando il bottone ottiene il focus, scrolla la pagina
-    window.scrollTo({
-        top: button.offsetTop - 50, // Scorri sopra il bottone di 50px
-        behavior: "smooth"
-    });
-});
