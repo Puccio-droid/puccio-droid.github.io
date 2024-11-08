@@ -152,6 +152,9 @@ button:hover {
         max-width: 90%; /* La larghezza massima su dispositivi mobili */
         margin: 0 20px; /* Distanza dai bordi su mobile */
     }
+    .video {
+        width: 100%;
+    }
 }
 
 .video {
