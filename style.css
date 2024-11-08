@@ -24,6 +24,7 @@ body {
     transition: transform 0.3s;
     margin-top: 15px;
     padding-top: 20px;
+    position: fixed;
 }
 
 .container:hover {
