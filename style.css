@@ -161,10 +161,6 @@ button:hover {
     margin: 15px auto 30px; /* posiziona il video in sovrapposizione sopra il contenitore */
     border-radius: 10px 10px 10px 10px; /* angoli arrotondati solo nella parte superiore */
     z-index: 1;
-    position: fixed;
-    top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .main-container {
